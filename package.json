@@ -1,0 +1,52 @@
+{
+  "name": "pao-api",
+  "version": "1.0.0",
+  "description": "Pao Api",
+  "scripts": {
+    "start": "set DEBUG=app & nodemon server.js",
+    "test": "mocha"
+  },
+  "engines": {
+    "node": "8.12.0"
+  },
+  "author": "",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "chai": "^4.2.0",
+    "cors": "^2.8.4",
+    "debug": "4.0.1",
+    "errorhandler": "1.5.0",
+    "express": "4.14.1",
+    "express-bearer-token": "^2.2.0",
+    "firebase-admin": "6.0.0",
+    "http": "0.0.0",
+    "lodash": "4.17.11",
+    "mocha": "^5.2.0",
+    "moment": "2.22.2",
+    "mongodb": "^3.1.4",
+    "morgan": "1.8.1",
+    "nconf": "0.8.4",
+    "nodemon": "^1.11.0",
+    "request": "2.79.0",
+    "request-promise": "4.1.1",
+    "util": "0.11.0",
+    "winston": "3.1.0"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "delay": "2500"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.0",
+    "prettier": "^1.14.2"
+  }
+}
